@@ -25,12 +25,14 @@
 main{
   display: flex;
 }
+
 .filter-container {
-  background-color: lightblue;
+  background-color:#E8E8E8;
   height: 345px;
   width: 220px;
   padding: 10px;
   margin: 5px;
+  font-family: "Roboto"
 }
 
 h2 {
@@ -47,11 +49,11 @@ h2 {
 }
 
 .filter-input-container .filter-input-element #filter-min-price {
-  width: 73px;
+  width: 71px;
 }
 
 .filter-input-container .filter-input-element #filter-max-price {
-  width: 73px;
+  width: 71px;
 }
 
 .filter-input-container .filter-input-element #filter-city {
@@ -82,12 +84,12 @@ h2 {
 }
 
 .result{
-  border: 1px solid black;
+  border: 1px solid #E8E8E8;
   margin: 10px;
   padding: 5px;
 
   height: 300px;
-  width: 300px;
+  width: 275px;
 }
 
 .result-image-container{
@@ -114,7 +116,7 @@ div.result-info-container a{
 
 #results img {
   height:225px;
-  width:300px;
+  width:275px;
 }
 
 .result-price{
@@ -123,4 +125,27 @@ div.result-info-container a{
   background-color: #F0F0F0;
   font-size: 12px;
   padding: 1px;
+}
+
+#sell-something-button{
+  background-color: #ff4500;
+  border: none;
+  border-radius: 50%;
+  color:white;
+  padding: 7px;
+  font-size: 20px;
+  width:40px;
+  height:40px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  position:fixed;
+  bottom:25px;
+  right:25px;
+}
+
+#sell-something-button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  width:45px;
+  height:45px;
+  font-size: 23px;
 }
