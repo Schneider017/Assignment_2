@@ -4,5 +4,26 @@
 
  header {
    background-color: black;
-
+   width: auto;
+   height: 150px;
  }
+
+ header .site-title {
+   position: relative;
+   bottom: 160px;
+   left: 175px;
+   font-size: 75px;
+ }
+
+ h1.site-title a {
+   text-decoration: none;
+   font-family: "Roboto slab";
+   font-weight: normal;
+   color: white;
+ }
+
+.filter-container {
+  background-color: lightblue;
+  width: 200px;
+  width: 50px;
+}
