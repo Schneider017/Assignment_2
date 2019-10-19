@@ -74,3 +74,53 @@ h2 {
   color:black;
   background-color: #ffd9b3;
 }
+
+#results{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.result{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+
+  height: 300px;
+  width: 300px;
+}
+
+.result-image-container{
+  width:300px;
+}
+
+.result-info-container{
+  text-decoration: none;
+  font-style: Roboto;
+  font-weight: normal;
+  color: black;
+}
+
+div.result-info-container a:hover{
+  text-decoration: underline;
+}
+
+div.result-info-container a{
+  text-decoration: none;
+  font-style: Roboto;
+  font-weight: normal;
+  color: orange;
+}
+
+#results img {
+  height:225px;
+  width:300px;
+}
+
+.result-price{
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #F0F0F0;
+  font-size: 12px;
+  padding: 1px;
+}
